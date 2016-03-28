@@ -44,4 +44,4 @@ The disk space and usage will be the one of the host machine. This can be config
         --name=cloudwatch-monitor \
         athieriot/cloudwatch-monitor
 
-Inspired from [Octobly](https://hub.docker.com/r/octoblu/cloudwatch-monitor/)
+Forked from [Athieriot](https://github.com/athieriot/docker-cloudwatch-monitor) which in turn is Inspired by [Octobly](https://hub.docker.com/r/octoblu/cloudwatch-monitor/)
