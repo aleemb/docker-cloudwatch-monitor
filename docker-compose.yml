@@ -1,0 +1,9 @@
+# docker-compose build -t aleemb/docker-cloudwatch-monitor . && docker push aleemb/docker-cloudwatch-monitor
+version: '2'
+services:
+  scribe:
+    image: aleemb/docker-cloudwatch-monitor
+    container_name: cloudwatch
+    tty: true
+    build:
+      context: .
